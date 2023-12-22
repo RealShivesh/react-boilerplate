@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import Clock from './Clock'
 
 const Navbar = () => {
   return (
@@ -19,6 +20,7 @@ const Navbar = () => {
       >
         About
       </NavLink>
+      <Clock />
     </div>
   )
 }

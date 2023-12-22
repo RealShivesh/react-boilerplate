@@ -1,9 +1,12 @@
 const Home = () => {
   return (
-    <>
-      <div>Home</div>
-    </>
-  );
-};
+    <div className="container">
+      <h1>Home page</h1>
+      <section>
+        This section will act as the landing page of the project.
+      </section>
+    </div>
+  )
+}
 
-export default Home;
+export default Home

@@ -1,8 +1,7 @@
-import './assets/styles/app.scss';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Navbar from './components/Navbar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
         </Routes>
       </div>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -7,23 +7,31 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+
   .navbar {
     height: 10vh;
     background-color: brown;
     color: aliceblue;
+
     .nav {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
+
       .nav-menu {
         padding: 1em;
         font-size: 1.7em;
         text-decoration: none;
         border-radius: 5%;
+
         &.active {
           background-color: blueviolet;
         }
       }
     }
+  }
+
+  .container {
+    text-align: center;
   }
 }

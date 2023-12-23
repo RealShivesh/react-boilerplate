@@ -5,7 +5,7 @@ const Home = () => {
   const count = useSelector((state) => state.counter.value)
   const dispatch = useDispatch()
   return (
-    <div className="container">
+    <>
       <h1>Home page</h1>
       <section>
         This section will act as the landing page of the project.
@@ -19,7 +19,7 @@ const Home = () => {
           </button>
         </div>
       </section>
-    </div>
+    </>
   )
 }
 

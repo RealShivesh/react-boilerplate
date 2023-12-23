@@ -11,8 +11,10 @@ function App() {
           <Navbar />
         </div>
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/about" exact element={<About />} />
+          <div className="container">
+            <Route path="/" exact element={<Home />} />
+            <Route path="/about" exact element={<About />} />
+          </div>
         </Routes>
       </div>
     </BrowserRouter>

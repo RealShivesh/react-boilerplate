@@ -7,3 +7,13 @@
   display: flex;
   flex-direction: column;
 }
+
+@mixin row-jcc {
+  @include row;
+  justify-content: center;
+}
+
+@mixin col-jcc {
+  @include column;
+  justify-content: center;
+}

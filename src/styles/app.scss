@@ -10,6 +10,10 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+  h1,
+  h2 {
+    margin: 0;
+  }
 
   .navbar {
     height: 10vh;
@@ -27,13 +31,38 @@ body {
         border-radius: 5%;
 
         &.active {
-          background-color: blueviolet;
+          background-color: $accent;
         }
       }
     }
   }
 
   .container {
+    text-align: center;
+    min-height: 85vh;
+    .counter {
+      @include row;
+      justify-content: center;
+    }
+    .error-404 {
+      @include col-jcc;
+      height: 95vh;
+    }
+  }
+
+  .time {
+    font-size: 2em;
+    margin: 0.2em;
+  }
+
+  .footer {
+    background-color: $highlight;
+    color: $text;
+    font-size: 1.32em;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
 }

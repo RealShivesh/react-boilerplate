@@ -9,6 +9,7 @@ const Clock = () => {
     }, 1000)
     return () => clearInterval(interval)
   })
+
   return <div className="time">{time}</div>
 }
 

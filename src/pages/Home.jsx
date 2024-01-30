@@ -13,11 +13,11 @@ const Home = () => {
         This section will act as the landing page of the project.
         <div className="increment">
           <button className="button" onClick={() => dispatch(decrement())}>
-            Decrease the value
+            -
           </button>
           <div className="count">{count}</div>
           <button className="button" onClick={() => dispatch(increment())}>
-            Increase the value
+            +
           </button>
         </div>
       </section>

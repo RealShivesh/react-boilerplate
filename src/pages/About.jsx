@@ -3,10 +3,27 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <h1>About page</h1>
+      <h1>About me</h1>
       <section>
-        Ideally, this will be the final page of the project, or most probably
-        the description of the projects.
+        In this page, you can write a brief description about the project, or a
+        better idea: you can paste the contact details on this page. For
+        example, I can append the social media links and/or create a sample form
+        page to allow the users to fill the form.
+        <form action="">
+          <label htmlFor="">
+            Name:
+            <input type="text" />
+          </label>
+          <label htmlFor="">
+            Email ID:
+            <input type="text" />
+          </label>
+          <label htmlFor="">
+            Reason for contacting:
+            <input type="text" />
+          </label>
+          <button type="submit">Submit</button>
+        </form>
       </section>
     </>
   )
